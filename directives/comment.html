@@ -1,0 +1,14 @@
+<div class="panel panel-default" ng-show='panelCtrl.isPanel(joke.num)'>
+  <li class="list-group-item">
+    <h5>{{commentCtrl.userLine.text}}</h5>
+    <p class='pull-right'>~ {{commentCtrl.userLine.author}} <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span> <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span></p>
+    &nbsp;                
+  </li>
+  <div class="panel-body">
+    <textarea class="form-control" rows="3" ng-model="commentCtrl.userLine.text"></textarea>
+  </div>
+  <div class="panel-footer">
+    <input type="submit" class="btn btn-success" name="" value="Add"/>
+    &nbsp;
+  </div>
+</div>

@@ -1,0 +1,24 @@
+#contents{
+    margin:100px 100px 100px 100px;
+}
+.list-group-item p span{
+    margin-left:19px;
+}
+
+.form-control{
+    margin:0px;
+}
+.panel-default{
+    margin:0px;
+}
+
+.green{
+    color: #2ecc71;    
+}
+
+.red{
+    color: #e74c3c;    
+}
+.na{
+    color:#7f8c8d;
+}
